@@ -4,7 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class LoginPage(BasePage):
-
     PAGE_URL = Links.LOGIN_PAGE
 
     USERNAME_FIELD = ("xpath", "//input[@name='username']")

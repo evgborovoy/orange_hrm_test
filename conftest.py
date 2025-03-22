@@ -14,4 +14,3 @@ def driver(request):
     request.cls.driver = driver
     yield driver
     driver.quit()
-
